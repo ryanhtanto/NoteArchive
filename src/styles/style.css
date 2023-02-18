@@ -1,0 +1,37 @@
+.nav-link{
+  font-size: 20px;
+}
+
+:root {
+  --primary: #bb86fc;
+  --primary-variant: #3700b3;
+  --secondary: #03dac6;
+  --background: #dddddd;
+  --surface: #ffffff;
+  --error: #cf6679;
+  --warning: #f39c12;
+  --on-background: #333333;
+  --on-background-grey: #6d6d6d;
+  --on-surface: #333333;
+}
+
+[data-theme="dark"] {
+  --background: #121212;
+  --surface: #4e4e4e;
+  --on-background: #ffffff;
+  --on-background-grey: #c7c7c7;
+  --on-surface: #ffffff;
+}
+
+body{
+  background-color: var(--surface);
+  color: var(--on-surface);
+}
+
+.toggle-button{
+  font-size: 30px;
+  background-color: var(--surface);
+  border: none;
+  transition: 1s;
+  color: var(--on-background);
+}
